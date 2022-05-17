@@ -6,6 +6,11 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
     max-height: 100%;
+    background-color: #E4E4E4;
+}
+
+.primary-color{
+    color: #0071BC;
 }
 
 header,
@@ -41,4 +46,20 @@ footer {
     width: 10px !important;
     height: 10px !important;
     border-radius: 5px !important;
+    margin-left: 10px !important;
+}
+.carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    bottom: 1.25rem;
+    left: 0% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: -20px; 
+    width: 100%;
+}
+.carousel-caption h5 {
+   background-color: #0071bcb8;
 }
