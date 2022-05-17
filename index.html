@@ -29,45 +29,129 @@
             </div>
         </div>
     </header>
-    <main class="d-flex align-items-center,justify-content-center">
+    <main class="d-flex align-items-center justify-content-center mt-5">
         <div class="container">
             <div class="text-center">
                 <h1 class="text-white">les évènements</h1>
                 <p class="text-white">Sélectionnez votre évènement ci-dessous</p>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 event-card">
-                        <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div style=" transform: rotate(90deg);
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 60%;
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                padding: 0;
+                margin-right: 0% !important;
+                margin-bottom: 1rem !important;
+                margin-left: 15% !important;
+                list-style: none;" class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"> </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100 event-card  border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 event-card border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 event-card border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 event-card">
-                        <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100 event-card  border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 event-card border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 event-card border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 event-card">
-                        <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100 event-card  border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 event-card border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 event-card border-0">
+                                    <img src="./assets/images/event.png" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Nom de l'évènement</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="position-absolute start-0 top-50">
-            <h1>dflkhdsifoi</h1>
-            <h1>dflkhdsifoi</h1>
-            <h1>dflkhdsifoi</h1>
-            <h1>dflkhdsifoi</h1>
-            <h1>dflkhdsifoi</h1>
+            <p style="border-top-right-radius: 20px; border-bottom-right-radius:20px;width: 200px;"
+                class="bg-white text-end py-1 px-4 ">Text Menu</p>
+            <p style="border-top-right-radius: 20px; border-bottom-right-radius:20px;width: 200px;"
+                class="bg-white text-end py-1 px-4 ">Text Menu</p>
+            <p style="border-top-right-radius: 20px; border-bottom-right-radius:20px;width: 200px;"
+                class="bg-white text-end py-1 px-4 ">Text Menu</p>
         </div>
     </main>
     <footer class="fixed-bottom">

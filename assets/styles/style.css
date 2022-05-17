@@ -1,22 +1,44 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-body{
+body {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     position: relative;
     max-height: 100%;
 }
 
-header ,footer{
+header,
+footer {
     background-color: #0071BC;
 }
 
-.header-title{
+.header-title {
     font-size: 28px;
     color: #fff;
 
 }
-.event-card{
-    border-top-left-radius: 40px !important;
+
+.event-card,
+.card-img-top {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    background-color: #0071BC;
+    color: #fff;
+}
+
+#carouselExampleIndicators {
+    position: relative;
+}
+
+.carousel-indicators {
+   
+
+
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 5px !important;
 }
