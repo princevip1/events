@@ -17,6 +17,31 @@
 <body
     style="background-image: url('./assets/images/background-image1.png') ; background-repeat: no-repeat; background-size: cover;">
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-block d-sm-block d-md-none d-lg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="container py-3">
             <div class="d-flex align-items-center justify-content-between flex-wrap">
                 <div class="">
@@ -35,7 +60,7 @@
                 <h1 class="text-white">les évènements</h1>
                 <p class="text-white">Sélectionnez votre évènement ci-dessous</p>
             </div>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-none d-md-block d-lg-block" data-bs-ride="carousel">
                 <div style=" transform: rotate(90deg);
                 position: absolute;
                 top: 0;
@@ -144,8 +169,57 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-12 d-block d-sm-block d-md-none d-lg-none">
+                <div id="carouselExampleIndicators" class="carousel slide position-relative"
+                    data-bs-ride="carousel">
+                    <div style="position: absolute;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    z-index: 2;
+                    display: flex;
+                    justify-content: center;
+                    padding: 0;
+                    margin-right: 15%;
+                    margin-bottom: 0rem;
+                    margin-left: 0%;
+                    list-style: none;" class="carousel-indicators bg-primary w-100">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center">
+                            <div class="carousel-caption position-absolute w-100 d-none d-md-block">
+                                <h5 class="py-4 fs-2">Nom course </h5>
+                            </div>
+                            <img src="./assets/images/nomcourse.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item  text-center">
+                            <div class="carousel-caption position-absolute w-100 d-none d-md-block">
+                                <h5 class="py-4 fs-2">Nom course </h5>
+                            </div>
+                            <img src="./assets/images/nomcourse.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item  text-center">
+                            <div class="carousel-caption position-absolute w-100 d-none d-md-block">
+                                <h5 class="py-4 fs-2">Nom course </h5>
+                            </div>
+                            <img src="./assets/images/nomcourse.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <!-- <img src="./assets/images/nomcourse.png" alt=""> -->
+            </div>
+
+
         </div>
-        <div class="position-absolute start-0 top-50">
+        <div class="position-absolute start-0 top-50 d-none d-sm-none d-md-block d-lg-block">
             <p style="border-top-right-radius: 20px; border-bottom-right-radius:20px;width: 200px;"
                 class="bg-white text-end py-1 px-4 ">Text Menu</p>
             <p style="border-top-right-radius: 20px; border-bottom-right-radius:20px;width: 200px;"
